@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      name: Print
-      run: echo "Hello, world!"
+      - name: Print
+        run: echo "Hello, world!"
